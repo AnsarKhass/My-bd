@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #fefcea, #f1daff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 90%;
+  margin: 100px auto;
+}
+
+.cake {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #8e44ad;
+}
+
+.text {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Анимация появления */
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
